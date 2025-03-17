@@ -8,6 +8,7 @@ body{
 }
 header{
     position: fixed;
+    height: fit-content;
     top: 0;
     left: 0;
     width: 100%;
@@ -16,7 +17,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 99;
 }
 .logo-container{
     display: flex;
@@ -28,7 +28,7 @@ header{
     font-weight: bold;
 }
 .logo{
-    font-size: 1.5em;
+    font-size: 20px;
     color: red;
     user-select: none;
     margin-right: 20px;
@@ -62,4 +62,132 @@ header{
 }
 .btn-signup:hover{
     background: rgb(209, 207, 207);
+}
+.auth{
+    z-index: 9;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.257);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 70px 10px 50px 70px;
+}
+.authbody{
+    max-width: 360px;
+    background-color: white;
+    text-align: center;
+    border-radius: 28px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px 5pxrgb(8, 26, 31);
+}
+.input{
+}
+.input input{
+    padding: 10px;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid lightgray;
+    width: 75%;
+    font-size: 12px;
+}
+.lebo{
+    margin-top: 7px;
+    display: flex;
+    align-items: start;
+    width: 100%;
+}
+.lebo label{
+    margin-left: 15%;
+    font-size: 12px;
+}
+.forgot{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: start;
+    width: 100%;
+}
+#login{
+    background-color: #E60023;
+    color: white;
+    border-radius: 25px;
+}
+.forgot p{
+    font-size: 10px;
+    margin-left: 10%;
+    color: black;
+    font-weight: bolder;
+}
+.input2{
+    display: flex;
+    justify-content: center;
+}
+.or p{
+    margin: 5px;
+    font-size: 11px;
+    font-weight: bolder;
+}
+.input2 #button{
+    margin-top: 7px;
+    padding: 6px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid lightgray;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1877F2;
+    color: white;
+    font-size: 13px;
+}
+.input2 #button img{
+    width: 21px;
+    background-color: white;
+    border-radius: 100%;
+}
+.input2 #buttonG{
+    margin-top: 7px;
+    padding: 6px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid lightgray;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 13px;
+}
+.input2 #buttonG img{
+    width: 34px;
+    background-color: white;
+    border-radius: 100%;
+}
+.text p{
+    margin-top: 7px;
+    font-size: xx-small;
+    color: gray;
+}
+.text2 p{
+    margin-top: 10px;
+    font-size: xx-small;
+    color: black;
+}
+.authhead{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+    width: 96%;
+}
+.authhead svg{
+    width: 22px;
+}
+.form{
+    margin: 2px 50px 5px 50px;
+    text-align: center;
+}
+.welcome h2{
+    font-weight: 500;
 }
