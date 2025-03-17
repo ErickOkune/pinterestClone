@@ -5,18 +5,20 @@
 }
 body{
     font-family: 'Pin-Sans', 'Segoe UI', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'メイリオ', 'ＭＳ Ｐゴシック', Arial, sans-serif ;
+    justify-content: center;
+    background: rgb(221, 220, 220);
+    
 }
 header{
-    position: fixed;
+   /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 30px;
-    background: white;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 99;
 }
 .logo-container{
     display: flex;
@@ -63,3 +65,110 @@ header{
 .btn-signup:hover{
     background: rgb(209, 207, 207);
 }
+.main-container{
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.login-container{
+    background-color: #fff;
+    padding:90px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 480px;
+}
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 29px;
+    color: #0a0707;
+  }
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #080808;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    font-size: 14px;
+  }
+  .forgot-password-link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(56, 163, 206);
+  }
+  .login-button{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 14px;
+  }
+  .facebook-button{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background: rgb(77, 120, 236);
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  .google-img{
+    width: 21px;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+  .google-button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(10, 10, 10);
+    background: transparent;
+    border: 1px solid rgb(221, 218, 218);
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .login-container p{
+    font-size: 12px;
+    padding: 10px;
+    color: rgb(155, 153, 153);
+
+  }
+  .signup-links {
+    font-size: 14px;
+    color: black;
+    padding: px;
+  }
+  .signup-links p{
+    color: #080808;
+  }
+  .not-on-pin{
+    font-weight: bold;
+  }
+  
+  .signup-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-links a:hover {
+    text-decoration: underline;
+  }
