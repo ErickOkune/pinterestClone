@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pintrest</title>
+    <title>OurTrest</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo-container">
-            <h2 class="logo">Pinterest</h2>
+            <h2 class="logo">OurTrest</h2>
             <a href="#">Explore</a>
         </div>
         <nav class="navigation">
@@ -20,21 +20,24 @@
             <button class="btn-signup">Sign up</button>
         </nav>
     </header>
-    <div class="main-container">
+    <div class="main-container"  id="mainContainer">
     <div class="login-container">
-        <h1>Welcome to Pinterest</h1>
+        <h1>Welcome to OurTrest</h1>
         <div class="input-group">
             <label for="email">Email</label>
-            <input type="email" placeholder="Email">
+            <input type="email" placeholder="Email" id="email">
+            <p id="mailerror"></p>
         </div>
         <div class="input-group">
             <label for="password">Password</label>
-            <input type="passwprd" placeholder="Password">
+            <input type="password" placeholder="Password" id="password">
+            <p id="ptext"></p>
         </div>
         <div class="input-group">
             <a href="#" class="forgot-password-link">Forgot your password?</a>
         </div>
-        <button class="login-button">Log in</button>
+        <p id="error"></p>
+        <button class="login-button" onclick="handleForm()">Log in</button>
         <div class="or-divider">OR</div>
         <button class="facebook-button">
             Continue with Facebook
@@ -43,9 +46,9 @@
             <img src="./google-removebg-preview.png" class="google-img">
             Continue with Google
         </button>
-        <p>By continuing, you agree to Pinterest's Terms of service and acknowledge you've read our privacy, Notice at collection.</p>
+        <p>By continuing, you agree to OurTrest's Terms of service and acknowledge you've read our privacy, Notice at collection.</p>
         <div class="signup-links">
-            <p class="not-on-pin">Not on Pinterest yet? <a href="#">Sign up</a></p>
+            <p class="not-on-pin">Not on OurTrest yet? <a href="#">Sign up</a></p>
             <p>Are you a business? <a href="#">Get started here!</a></p>
           </div>
     </div>

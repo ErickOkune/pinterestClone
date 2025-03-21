@@ -31,7 +31,7 @@ header{
 }
 .logo{
     font-size: 20px;
-    color: red;
+    color: purple;
     user-select: none;
     margin-right: 20px;
 }
@@ -46,7 +46,7 @@ header{
     padding: 10px;
     margin: 5px;
     color: white;
-    background: red;
+    background: purple;
     border: none;
     border-radius: 14px;
     margin-left: 30px;
@@ -115,7 +115,7 @@ header{
     width: 100%;
     padding: 10px;
     color: white;
-    background: red;
+    background: purple;
     border: none;
     border-radius: 14px;
   }
@@ -171,4 +171,10 @@ header{
   
   .signup-links a:hover {
     text-decoration: underline;
+  }
+  #error{
+    color: red;
+  }
+  #ptext,#mailerror{
+    color: red;
   }
